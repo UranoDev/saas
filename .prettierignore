@@ -1,0 +1,48 @@
+# Laravel core
+/vendor
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/.idea
+/.vscode
+
+# Laravel environment files
+.env
+.env.*
+.phpunit.result.cache
+
+# Laravel caches and logs
+/storage/app/public
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/testing
+/storage/framework/views
+/storage/logs
+
+# Composer & NPM artifacts
+composer.lock
+package-lock.json
+yarn.lock
+
+Thumbs.db
+
+# Testing artifacts
+coverage/
+phpunit.xml
+
+# Build artifacts (optional, if building assets)
+public/mix-manifest.json
+public/build
+
+# Optional: Ignore IDE-specific files
+.idea
+
+# Optional: Ignore dump files
+*.sql
+*.sqlite
+*.bak
+*.log
+*.zip
+*.tar.gz
+*test*.php
